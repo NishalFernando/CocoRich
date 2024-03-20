@@ -218,7 +218,7 @@
 
         (products.filter(value => value.id != productId)).forEach(product => {
             let newProduct = document.createElement('a');
-            newProduct.href = '/product_detail.html?id=' + product.id;
+            newProduct.href = '/CocoRich/product_detail.html?id=' + product.id;
             newProduct.classList.add('item');
             newProduct.innerHTML = 
             `<img src="${product.image}" alt="">
