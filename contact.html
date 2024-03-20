@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!-- mobile metas -->
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+      <!-- site metas -->
+      <title>Contact</title>
+      <meta name="keywords" content="">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <!-- bootstrap css -->
+      <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+      <!-- style css -->
+      <link rel="stylesheet" type="text/css" href="css/style.css">
+      <!-- Responsive-->
+      <link rel="stylesheet" href="css/responsive.css">
+      <!-- fevicon -->
+      <link rel="icon" href="images/fevicon.png" type="image/gif" />
+      <!-- font css -->
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
+      <!-- Scrollbar Custom CSS -->
+      <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+      <link rel = "stylesheet" href="css/bootstrap.min.css">
+      <!-- Tweaks for older IEs-->
+      <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+     
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.carousel.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.theme.default.min.css">
+     
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+      <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@700&family=Merriweather&display=swap" rel="stylesheet">
+      <link href='https://fonts.googleapis.com/css?family=Rye' rel='stylesheet'>
+
+      <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+      </script>
+      <script type="text/javascript">
+         (function(){
+            emailjs.init({
+            publicKey: "yBo_Md7ReRGBLGTKc",
+            });
+         })();
+      </script>
+   </head>
+   <body>
+      <div class="top-bar">
+         <div class="contact-bar">
+            <a href="mailto:info@cocorich.au"><span class="fa fa-envelope"></span>info@cocorich.au</a>
+            <a href="tel:+610493883301"> <span class="fa fa-phone"></span>+61 493 883 301</a>
+            <a href="tel:940766182564"> <span class="fa fa-phone"></span>+94 76 618 2564</a>
+         </div>
+         <div class="nav-container">
+            <nav class="navbar navbar-expand-lg" id="myNavbar">
+               <a class="logo-container"href="index.html" >
+                   <img src="images/CocoRich (2).png" class="logo">
+                  <!-- <h1>CocoRich</h1> -->
+               </a>
+               <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+               </button> -->
+               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="" role="button" ><i class="fa fa-bars" aria-hidden="true" style="color:rgba(85,64,14,1);"></i></span>
+              </button>
+               <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav ml-auto">
+                     <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="product.html">Products</a>
+                     </li>
+                     <!-- <li class="nav-item">
+                        <a class="nav-link" href="shop.html">Shop</a>
+                     </li> -->
+                     <li class="nav-item">
+                        <a class="nav-link" href="blog.html">Blog</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                     </li>
+                  </ul>
+                  <!-- <form class="form-inline my-2 my-lg-0">
+                     <div class="login_bt">
+                        <ul>
+                           <li><a href="#"><span class="user_icon"><i class="fa fa-user" aria-hidden="true"></i></span>Login</a></li>
+                           <li><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></li>
+                        </ul>
+                     </div>
+                  </form> -->
+               </div>
+            </nav>
+         </div>
+      </div>
+      <section class="contact_section" style="margin-top:100px">
+         <div class="container">
+            <div class="row justify-content-center">
+               <div class="col-lg-12">
+                  <div class="wrapper">
+                     <div class="row no-gutters">
+                        <div class="col-md-6 d-flex align-items-stretch left-box">
+                           <div class="contact-wrap w-100 p-md-3 p-4 py-5">
+                              <h3 class="mb-4 title">Drop Message Here</h3>
+                              <div id="form-message-warning" class="mb-4"></div> 
+                           <!-- <div id="form-message-success" class="mb-4">
+                           Your message was sent, thank you!
+                           </div> -->
+                              <!-- <form method="POST" id="contactForm" name="contactForm" class="contactForm" action="https://formsubmit.co/info@cocorich.au"> -->
+                                 <form id="contactForm" name="contactForm" class="contactForm"  action="https://api.web3forms.com/submit" method="POST">
+                                    <input type="hidden" name="access_key" value="ce15c74c-547c-4539-88fd-3268a483bad4">
+                                 <div class="row">
+                                    <div class="col-md-12">
+                                       <div class="form-group">
+                                          <input type="text" class="form-control" name="name" id="name" placeholder="Name">
+                                       </div>
+                                    </div>
+                                    <div class="col-md-12"> 
+                                       <div class="form-group">
+                                          <input type="email" class="form-control" name="email" id="email" placeholder="Email">
+                                       </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                       <div class="form-group">
+                                          <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject">
+                                       </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                       <div class="form-group">
+                                          <textarea name="message" class="form-control" id="message" cols="30" rows="6" placeholder="Message"></textarea>
+                                       </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                       <div class="form-group">
+                                          <input type="submit" value="Send Message" class="btn btn-primary" id="sub-btn">
+                                          <div class="submitting"></div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </form>
+                           </div>
+                        </div>
+                        <div class="col-md-6 d-flex align-items-stretch right-box">
+                           <div class="info-wrap w-100 p-md-3 img">
+                              <h3 class="title">Contact information</h3>
+                              <p class="sub-title">Please call us now or drop a message</p>
+                           <div class="dbox w-100 d-flex align-items-start">
+                             <div class="icon d-flex align-items-center justify-content-center">
+                                <span class="fa fa-map-marker"></span>
+                             </div>
+                             <div class="text pl-3">
+                              <p><span>Address : </span> Suite 69, 42 Manilla St, East Brisbane QLD 4169</p>
+                            </div>
+                           </div>
+                          <div class="dbox w-100 d-flex align-items-center">
+                             <div class="icon d-flex align-items-center justify-content-center">
+                                <span class="fa fa-phone"></span>
+                             </div>
+                             <div class="text pl-3">
+                              <p><span>Phone : </span> <a href="tel:+610493883301">+61 493 883 301</a> ( Australia )
+                                 <br><a href="tel:+94766182564">+94 76 618 2564 ( SriLanka )</a></p>
+                            </div>
+                         </div>
+                          <div class="dbox w-100 d-flex align-items-center">
+                             <div class="icon d-flex align-items-center justify-content-center">
+                                <span class="fa fa-envelope"></span>
+                             </div>
+                             <div class="text pl-3">
+                              <p><span>Email : </span> <a href="mailto:info@cocorich.au">info@cocorich.au</a></p>
+                            </div>
+                         </div>
+                          <div class="dbox w-100 d-flex align-items-center">
+                             <div class="icon d-flex align-items-center justify-content-center">
+                                <span class="fa fa-globe"></span>
+                             </div>
+                             <div class="text pl-3">
+                              <p><span>Website : </span> <a href="#">www.cocorich.au</a></p>
+                            </div>
+                           
+                         </div>
+                         <h5 class="social-title">Find us On</h5>
+                         <div class="social-icon-container">
+                           <div class="icon d-flex align-items-center justify-content-center">
+                              <a href="https://www.facebook.com/profile.php?id=100095560989564&mibextid=LQQJ4d"><span class="fa fa-facebook" title="facebook"></span></a>
+                           </div>
+                           <div class="icon d-flex align-items-center justify-content-center">
+                              <a href="https://instagram.com/_coco_rich_?igshid=MzRlODBiNWFlZA=="><span class="fa fa-instagram" title="instagram"></span></a>
+                           </div>
+                           <div class="icon d-flex align-items-center justify-content-center">
+                              <a href="https://www.linkedin.com/company/cocorich-pty-ltd/?lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_all%3BA9Ft1hTaTkWJWwBOcnznKg%3D%3D"><span class="fa fa-linkedin" title="linkedin"></span></a>
+                           </div>
+                         </div>
+                      </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="container-fluid">
+            <div class="contact_section_2">
+               <div class="row">
+                  <div class="map_main">
+                     <div class="map-responsive">
+                        <!-- <iframe src="https://www.google.com/maps/embed/v1/place?key=AIzaSyA0s1a7phLN0iaD6-UE7m4qP-z21pH0eSc&amp;q=Eiffel+Tower+Paris+France" width="250" height="500" frameborder="0" style="border:0; width: 100%;" allowfullscreen=""></iframe> -->
+                        <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9997.568937695985!2d152.97669752116673!3d-27.634599263499556!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b9148cc28879d79%3A0x6e0e796a7cf639d3!2s6%20Derby%20St%2C%20Heathwood%20QLD%204110%2C%20Australia!5e0!3m2!1sen!2slk!4v1706282738191!5m2!1sen!2slk" width="250" height="500" style="border:0; width:100%;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3539.6416896548485!2d153.03908867446717!3d-27.480412317160887!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b915a3cf95aaaab%3A0x1d9b69fff308577e!2sSuite%2069%2F42%20Manilla%20St%2C%20East%20Brisbane%20QLD%204169%2C%20Australia!5e0!3m2!1sen!2slk!4v1709819806906!5m2!1sen!2slk" width="250" height="500" style="border:0;width: 100%;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+     
+      <!-- contact section end -->
+
+      <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
+<div class="elfsight-app-15f5d4ef-3f4f-4518-a682-782985173897" data-elfsight-app-lazy></div>
+      <!-- footer section start -->
+      <div class="footer_section layout_padding">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="logo-content">
+                     <div class="img-container">
+                        <img src="images/footer-logo.png" alt="">
+                     </div>
+                     <div class="logo-title">
+                        <h2>CocoRich</h2>
+                        <p>Pure Cococnut Goodness</p>
+                     </div>
+                  </div>
+
+                  <div class="social-icons">
+                     <a href="https://www.facebook.com/profile.php?id=100095560989564&mibextid=LQQJ4d"> 
+                        <div class="icon d-flex align-items-center justify-content-center">
+                           <span class="fa fa-facebook"></span>
+                        </div>
+                     </a>
+                     <a href="https://instagram.com/_coco_rich_?igshid=MzRlODBiNWFlZA==">
+                     <div class="icon d-flex align-items-center justify-content-center">
+                        <span class="fa fa-instagram"></span>
+                     </div>
+                     </a>
+                     <a href="https://www.linkedin.com/company/cocorich-pty-ltd/?lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_all%3BA9Ft1hTaTkWJWwBOcnznKg%3D%3D">
+                        <div class="icon d-flex align-items-center justify-content-center">
+                           <span class="fa fa-linkedin"></span>
+                        </div>
+                        </a>
+                  </div>
+                 
+              
+                  <div class="location_text">
+                     <ul>
+                        <li>
+                           <a>
+                           <i class="fa fa-envelope" aria-hidden="true"></i><span class="padding_left_10">info@cocorich.au</span>
+                           </a>
+                        </li>
+                        <li>
+                           <a>
+                           <i class="fa fa-phone" aria-hidden="true"></i><span class="padding_left_10">+61 493 883 301</span>
+                           <i class="fa fa-phone padding_left_10" aria-hidden="true"></i><span class="padding_left_10">+94 76 618 2554</span>
+                        
+                           </a>
+                        </li>
+                       
+                        <li>
+                           <a>
+                           <i class="fa fa-map-marker" aria-hidden="true"></i><span class="padding_left_10">CocoRich Pty Ltd, Suite 69, 42 Manilla St, East Brisbane QLD 4169</span>
+                           </a>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- footer section end -->
+      <!-- copyright section start -->
+      <div class="copyright_section">
+         <div class="container">
+            <p class="copyright_text">Copyright @2024 Design by Nishal Fernando</p>
+         </div>
+      </div>
+      <script src="https://smtpjs.com/v3/smtp.js"></script>
+      <!-- <script>
+         function sendMail(){
+            Email.send({
+            Host : "smtp.elasticemail.com",
+            Username : "info@cocorich.au",
+            Password : "coco#rich$",
+            SecureToken : "2c3940ca-7705-42dd-a408-16d233bf47b8",
+            To : 'nishalmadushka1@gmail.com',
+            From : document.getElementById("email").value,
+            Subject : document.getElementById("subject").value,
+            Body : "And this is the body"
+         }).then(
+         message => alert(message)
+);
+      }
+      </script> -->
+      <!-- copyright section end -->
+      <!-- Javascript files-->
+      <script src="js/jquery.min.js"></script>
+      <script src="js/popper.min.js"></script>
+      <script src="js/bootstrap.bundle.min.js"></script>
+      <script src="js/jquery-3.0.0.min.js"></script>
+      <script src="js/plugin.js"></script>
+      <!-- sidebar -->
+      <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+      <script src="js/custom.js"></script>
+      <!-- <script src="js/script.js"></script> -->
+   </body>
+</html>

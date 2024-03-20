@@ -1,0 +1,34 @@
+[
+    {
+    "id": 1,
+    "name":" Coconut Flour",
+    "price": 200,
+    "image": "images/prd-01.jpeg",
+    "description": "Coconut flour is a unique and versatile alternative to traditional grain-based flour. It is derived from dried coconut meat, which is defatted and ground into a fine powder. This gluten-free and grain-free flour has gained popularity in recent years due to its numerous health benefits and culinary applications",
+    "ingredients": ["Serving size : 100g", "Energy (14g) : 365.2 Kal", "Carbohydrate : 37.1g", "Of which sugar : 12.6g" , "Total fat : 16.8g ( Saturated fat : 16g + Trans fat : 0g )", "Protein : 16.4g" , "Fiber : 18.2g", "Sodium : 44.6mg", "Calcium : 32.9mg","Vitamin A : 320 microgram"]
+},
+{
+    "id": 2,
+    "name":" White Kernel Virgin Oil",
+    "price": 250,
+    "image": "images/prd-02.jpeg",
+    "description": "White Kernel Virgin Coconut Oil is a precious gem among oils, offering a plethora of benefits and culinary delights. 'White Kernel Virgin Coconut Oil' is a premium quality and all-natural coconut oil extracted from the fresh white kernel of coconuts using a meticulous cold-pressed process. This unique product stands out from other types of coconut oil available in the market due to its exceptional purity, nutritional value, and versatility.",
+    "ingredients": ["Serving size : 1 Tbsp(14g)", "Energy (14g) : 130 Kal", "Total fat : 13g ( Saturated fat : 13g + Trans fat : 0g )", "Protein : 16.4g" , "Cholestrol : 0mg", "Sodium : 0mg", "Cabohydrates : 0g","Vitamin A : 0mg","Vitamin A : 0g","Vitamin C : 0g","Calcium : 0g", "Iron : 0g"]
+},
+{
+    "id": 3,
+    "name":" Whole Kernel Virgin Oil",
+    "price": 290,
+    "image": "images/prd-03.jpeg",
+    "description": "Whole Kernel Virgin Coconut Oil is a premium and naturally extracted coconut oil renowned for its exceptional quality and unique characteristics. Unlike conventional coconut oils available in the market, 'Whole Kernel Virgin Coconut Oil' sets itself apart through its distinctive features, making it a superior choice for health-conscious consumers and culinary enthusiasts alike.",
+    "ingredients": ["Serving size : 1 Tbsp(14g)", "Energy (14g) : 130 Kal", "Total fat : 13g ( Saturated fat : 13g + Trans fat : 0g )", "Protein : 16.4g" , "Cholestrol : 0mg", "Sodium : 0mg", "Cabohydrates : 0g","Vitamin A : 0mg","Vitamin B : 0g","Vitamin C : 0g","Calcium : 0g", "Iron : 0g"]
+},
+{
+    "id": 4,
+    "name":" Dessicated Coconut",
+    "price": 200,
+    "image":"images/prd-04.jpeg",
+    "description": "CocoRich Desiccated Coconut is a premium offering crafted for those who appreciate the pure essence of coconut in its most versatile form. Sourced from the finest coconuts, our desiccated coconut undergoes a meticulous process to preserve its natural flavor and texture, resulting in a product that embodies the essence of tropical indulgence",
+    "ingredients": ["Serving size : 1 Tbsp(14g)", "Energy (14g) : 130 Kal", "Total fat : 13g ( Saturated fat : 13g + Trans fat : 0g )", "Protein : 0g" , "Cholestrol : 0mg", "Sodium : 0mg", "Cabohydrates : 0g","Vitamin A : 0g","Vitamin B : 0g","Vitamin C : 0g","Calcium : 0g", "Iron : 0g"]
+}
+]
